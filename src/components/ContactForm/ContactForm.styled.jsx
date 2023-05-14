@@ -7,16 +7,19 @@ export const Form = styled(FormikForm)`
   align-items: center;
   gap: 12px;
   max-width: 100%;
-  width: 500px;
+  
+  padding:10px;
+  justify-content: center;
   `;
 
 export const FormField = styled.label`
   display: flex;
   flex-direction: column;
   gap: 8px;
+ 
 
   max-width: 100%;
-  width: 500px;
+ 
 `;
 
 export const LabelWrapper = styled.div`
@@ -27,10 +30,10 @@ export const LabelWrapper = styled.div`
 `;
 
 export const FieldFormik = styled(Field)`
-max-width: 400px;
-font-size:18px;
+max-width: 100%;
+font-size:20px;
 border-radius: 5px;
-padding: 5px;
+padding: 10px;
 `;
 
 export const ErrorMessage = styled(FormikError)`
